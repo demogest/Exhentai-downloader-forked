@@ -22,7 +22,7 @@ def main():
         'doujinshi' : (input('是否包含doujinshi（1 包含 / 0 不包含 默认包含）:') or "1" ) == "0" and "off" or "on",
         'manga' : (input('是否包含manga（1 包含 / 0 不包含 默认包含）:') or "1") == "0" and "off" or "on",
         'artist_cg' : (input('是否包含artist_cg（1 包含 / 0 不包含 默认包含）:') or "1") == "0" and "off" or "on",
-        'game_cg' : (input('是否包含game_cg（1 包含 / 0 不包含 默认包含）:') or "1") == "0" and "off" or "on",
+        'game_cg' : (input('是否包含game_cg（1 包含 / 0 不包含 默认不包含）:') or "0") == "0" and "off" or "on",
         'western' : (input('是否包含western（1 包含 / 0 不包含 默认不包含）:') or "0") == "0" and "off" or "on",
         'non_h' : (input('是否包含non_h（1 包含 / 0 不包含 默认不包含）:') or "0") == "0" and "off" or "on",
         'image_set' : (input('是否包含image_set（1 包含 / 0 不包含 默认包含）:') or "1") == "0" and "off" or "on",
